@@ -1,0 +1,26 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #000;
+  color: #fff;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
+  list-style: none;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+  height: 150px;
+  background-color: rgb(176, 234, 242);
+}
+.container > div {
+  margin-right: 20px;
+}
